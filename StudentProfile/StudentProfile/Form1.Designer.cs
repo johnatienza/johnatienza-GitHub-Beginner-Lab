@@ -35,20 +35,21 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(66, 85);
+            label1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(55, 56);
             label1.Name = "label1";
-            label1.Size = new Size(377, 28);
+            label1.Size = new Size(399, 24);
             label1.TabIndex = 0;
             label1.Text = "Student Profile - GitHub Beginner Lab.";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(66, 126);
+            label2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(55, 105);
             label2.Name = "label2";
-            label2.Size = new Size(312, 28);
+            label2.Size = new Size(330, 24);
             label2.TabIndex = 1;
             label2.Text = "Contact Number: 09171234567";
             // 
