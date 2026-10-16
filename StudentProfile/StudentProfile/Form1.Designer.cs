@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -53,11 +54,22 @@
             label2.TabIndex = 1;
             label2.Text = "Contact Number: 09171234567";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(55, 152);
+            label3.Name = "label3";
+            label3.Size = new Size(437, 31);
+            label3.TabIndex = 2;
+            label3.Text = "Email: johnatienza1234567@gmail.com";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(550, 227);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -70,5 +82,6 @@
 
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
